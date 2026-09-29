@@ -1,0 +1,30 @@
+{
+  "scenario": "CONTRADICTED",
+  "mode": "GLSim in-process; deterministic web/LLM mocks",
+  "votes": [
+    "agree",
+    "agree",
+    "agree",
+    "agree",
+    "agree"
+  ],
+  "status": "FINALIZED",
+  "result": "CONTRADICTED",
+  "calls": {
+    "web": 6,
+    "llm": 6
+  },
+  "attestation": {
+    "attestation_id": 1,
+    "creator": "0x391697230821b7399CEc2cDd78a435c90bcD00FC",
+    "claim": "IANA allows example.com to be registered and transferred.",
+    "source_url": "https://www.iana.org/help/example-domains",
+    "context": "",
+    "source_commitment": "a888e1013af7eddc5046fa8eebc9d793305b944cd06d87aa9aaf0b3395350124",
+    "status": "ATTESTED",
+    "availability": "AVAILABLE",
+    "verdict": "CONTRADICTED",
+    "evidence_fingerprint": "f12eb49a04b8f6e65e7739d3d4dd7b5a3894b1bc92fd900db867f436e4820cae",
+    "reason": "Source classification, observation 1."
+  }
+}

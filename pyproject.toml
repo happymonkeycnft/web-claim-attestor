@@ -1,0 +1,3 @@
+[tool.pytest.ini_options]
+testpaths = ["tests/direct"]
+markers = ["integration: five-validator local GLSim scenarios"]

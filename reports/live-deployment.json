@@ -1,0 +1,254 @@
+{
+  "rpc": "https://studio-dev.genlayer.com/api",
+  "chainId": 61997,
+  "deployer": "0x4eD1d43e060e220724EE96E9c177E7548735994d",
+  "cliVersion": "0.40.0-rc.3",
+  "sdkVersion": "2.0.0-rc.1",
+  "preset": {
+    "name": "GenLayer Studio Devnet",
+    "id": 61997,
+    "rpc": "https://studio-dev.genlayer.com/api",
+    "consensusMain": "0xb7278A61aa25c888815aFC32Ad3cC52fF24fE575",
+    "consensusData": "0x88B0F18613Db92Bf970FfE264E02496e20a74D16",
+    "initialValidators": 5,
+    "rotations": 3
+  },
+  "contractAddress": "0xa436C779DcF4e8aF5e4454eF76eDB0E2e13F4e08",
+  "initialCount": 0,
+  "createdAttestation": {
+    "attestation_id": 1,
+    "availability": "",
+    "claim": "Example Domain is intended for documentation use.",
+    "context": "Verify the documented purpose of reserved example domains.",
+    "creator": "0x4eD1d43e060e220724EE96E9c177E7548735994d",
+    "evidence_fingerprint": "",
+    "reason": "",
+    "source_commitment": "ae8c570c9a2525cb03bb7985361c25881e80113959eb71c50f0eb1c750d98286",
+    "source_url": "https://www.iana.org/help/example-domains",
+    "status": "PENDING",
+    "verdict": ""
+  },
+  "readback": {
+    "row": {
+      "attestation_id": 1,
+      "availability": "AVAILABLE",
+      "claim": "Example Domain is intended for documentation use.",
+      "context": "Verify the documented purpose of reserved example domains.",
+      "creator": "0x4eD1d43e060e220724EE96E9c177E7548735994d",
+      "evidence_fingerprint": "95f5703a63f18c2da300bb57d4f5c5229d04176d64f608040e597c723e530583",
+      "reason": "The source explicitly states example domains like example.com are 'maintained for documentation purposes' and 'may be used as illustrative examples in documents,' directly supporting the claim.",
+      "source_commitment": "ae8c570c9a2525cb03bb7985361c25881e80113959eb71c50f0eb1c750d98286",
+      "source_url": "https://www.iana.org/help/example-domains",
+      "status": "ATTESTED",
+      "verdict": "SUPPORTED"
+    },
+    "count": 1,
+    "balance": "1999762687249997531"
+  },
+  "verification": {
+    "persistedInputsUnchanged": true,
+    "sourceCommitmentIndependentlyVerified": true,
+    "fingerprintValid": true,
+    "reasonCharacters": 193,
+    "sourceUnchanged": true,
+    "allTransactionsFinalized": true,
+    "broadcasts": {
+      "deploy": 1,
+      "create": 1,
+      "resolve": 1
+    }
+  },
+  "deploy": {
+    "before": {
+      "balance": "2000000000000000000",
+      "latestNonce": 1,
+      "pendingNonce": 1,
+      "sourceBytes": 9172,
+      "sourceSHA256": "e35ec8d171847d3685224a5fccda2e506a1cd3b66ec62dd3d8585e5e3fa6edfc"
+    },
+    "estimate": {
+      "distribution": {
+        "leaderTimeunitsAllocation": "100",
+        "validatorTimeunitsAllocation": "200",
+        "appealRounds": "0",
+        "executionBudgetPerRound": "25000000000000000",
+        "executionConsumed": "0",
+        "totalMessageFees": "0",
+        "rotations": [
+          "3"
+        ],
+        "maxPriceGenPerTimeUnit": "2",
+        "storageFeeMaxGasPrice": "300000000",
+        "receiptFeeMaxGasPrice": "300000000"
+      },
+      "feeValue": "100000000000010352",
+      "policy": {
+        "enabled": true,
+        "genPerTimeUnit": "1",
+        "storageUnitPrice": "250000000",
+        "receiptGasPrice": "250000000",
+        "executionBudgetFloor": "76548000000000",
+        "timeUnitOverlayBps": "1500"
+      }
+    },
+    "balanceImmediatelyBefore": "2000000000000000000",
+    "tx": "0xbd45b1fb6cbb0c6d3c6ca26397ee6b7f35cf1793c9ae38b866180f799ef00175",
+    "broadcastAt": "2026-09-29T04:51:51.313Z",
+    "receipt": {
+      "hash": "0xbd45b1fb6cbb0c6d3c6ca26397ee6b7f35cf1793c9ae38b866180f799ef00175",
+      "from_address": "0x4eD1d43e060e220724EE96E9c177E7548735994d",
+      "to_address": "0xa436C779DcF4e8aF5e4454eF76eDB0E2e13F4e08",
+      "statusName": "FINALIZED",
+      "lifecycle": {
+        "state": "finalized",
+        "outcome": "accepted"
+      },
+      "txExecutionResultName": "FINISHED_WITH_RETURN",
+      "votes": {
+        "0x5A4230B920b18c4AFD3A28F99Eae669B7F2cdC1e": "agree",
+        "0x8D32eb5D0207f7E230C45e7BF0D14B2ED5DA3028": "idle",
+        "0xa0435f618c1F27B254998018AEa8Da5C77187852": "agree",
+        "0xcF5Fd792Df0Dc9d297af75c82B4A0011e8FA1A4A": "idle",
+        "0xf13c3DfE38C8E206C33F750C24a1b043b63Cb810": "agree"
+      }
+    }
+  },
+  "create": {
+    "before": {
+      "balance": "1999921298249999177",
+      "latestNonce": 2,
+      "pendingNonce": 2,
+      "sourceBytes": 9172,
+      "sourceSHA256": "e35ec8d171847d3685224a5fccda2e506a1cd3b66ec62dd3d8585e5e3fa6edfc"
+    },
+    "estimate": {
+      "distribution": {
+        "leaderTimeunitsAllocation": "100",
+        "validatorTimeunitsAllocation": "200",
+        "appealRounds": "0",
+        "executionBudgetPerRound": "94626900000000",
+        "executionConsumed": "0",
+        "totalMessageFees": "0",
+        "rotations": [
+          "3"
+        ],
+        "maxPriceGenPerTimeUnit": "2",
+        "storageFeeMaxGasPrice": "300000000",
+        "receiptFeeMaxGasPrice": "300000000"
+      },
+      "feeValue": "378507600010352",
+      "policy": {
+        "enabled": true,
+        "genPerTimeUnit": "1",
+        "storageUnitPrice": "250000000",
+        "receiptGasPrice": "250000000",
+        "executionBudgetFloor": "76548000000000",
+        "timeUnitOverlayBps": "1500"
+      },
+      "observed": {
+        "executionFeeConsumed": "78631750000000",
+        "executionFeeReportTotal": "78628000000000",
+        "recommendedExecutionBudgetPerRound": "188711700000000",
+        "genvmMessageFeeConsumed": "0",
+        "messageFeeBudget": "0",
+        "messageFeeConsumed": "0",
+        "messageFeeRefunded": "0",
+        "internalDeclaredBudget": "0",
+        "externalMessageReserved": "0",
+        "externalMessageReimbursed": "0",
+        "externalMessageRemainder": "0",
+        "recommendedTotalMessageFees": "0"
+      }
+    },
+    "balanceImmediatelyBefore": "1999921298249999177",
+    "tx": "0x4a1014df54439e796d26bd1e9462a2b6cca64b1a6b6f919cba120708447cb87e",
+    "broadcastAt": "2026-09-29T04:54:54.472Z",
+    "receipt": {
+      "hash": "0x4a1014df54439e796d26bd1e9462a2b6cca64b1a6b6f919cba120708447cb87e",
+      "from_address": "0x4eD1d43e060e220724EE96E9c177E7548735994d",
+      "to_address": "0xa436C779DcF4e8aF5e4454eF76eDB0E2e13F4e08",
+      "statusName": "FINALIZED",
+      "lifecycle": {
+        "state": "finalized",
+        "outcome": "accepted"
+      },
+      "txExecutionResultName": "FINISHED_WITH_RETURN",
+      "votes": {
+        "0x8142E5D1b04f84c3cD995C25AAe31B31F8e0379E": "agree",
+        "0xE52dDB85587585930b1E5f1Fe88fef21CcA49829": "agree",
+        "0xa0435f618c1F27B254998018AEa8Da5C77187852": "agree",
+        "0xcEf1Baa172d0b4D99Dcc505B36332F26D1088025": "idle",
+        "0xcbC79F96B7A275b23EE64d80a98325107F6E1b77": "idle"
+      }
+    }
+  },
+  "resolve": {
+    "before": {
+      "balance": "1999842666499998354",
+      "latestNonce": 3,
+      "pendingNonce": 3,
+      "sourceBytes": 9172,
+      "sourceSHA256": "e35ec8d171847d3685224a5fccda2e506a1cd3b66ec62dd3d8585e5e3fa6edfc"
+    },
+    "estimate": {
+      "distribution": {
+        "leaderTimeunitsAllocation": "100",
+        "validatorTimeunitsAllocation": "200",
+        "appealRounds": "0",
+        "executionBudgetPerRound": "95988900000000",
+        "executionConsumed": "0",
+        "totalMessageFees": "0",
+        "rotations": [
+          "3"
+        ],
+        "maxPriceGenPerTimeUnit": "2",
+        "storageFeeMaxGasPrice": "300000000",
+        "receiptFeeMaxGasPrice": "300000000"
+      },
+      "feeValue": "383955600010352",
+      "policy": {
+        "enabled": true,
+        "genPerTimeUnit": "1",
+        "storageUnitPrice": "250000000",
+        "receiptGasPrice": "250000000",
+        "executionBudgetFloor": "76548000000000",
+        "timeUnitOverlayBps": "1500"
+      },
+      "observed": {
+        "executionFeeConsumed": "79766750000000",
+        "executionFeeReportTotal": "79764000000000",
+        "recommendedExecutionBudgetPerRound": "191436900000000",
+        "genvmMessageFeeConsumed": "0",
+        "messageFeeBudget": "0",
+        "messageFeeConsumed": "0",
+        "messageFeeRefunded": "0",
+        "internalDeclaredBudget": "0",
+        "externalMessageReserved": "0",
+        "externalMessageReimbursed": "0",
+        "externalMessageRemainder": "0",
+        "recommendedTotalMessageFees": "0"
+      }
+    },
+    "balanceImmediatelyBefore": "1999842666499998354",
+    "tx": "0x5b7e124d55617063139518eca7cee7e21984d575aaa603acaf7385dc58f87286",
+    "broadcastAt": "2026-09-29T04:56:25.253Z",
+    "receipt": {
+      "hash": "0x5b7e124d55617063139518eca7cee7e21984d575aaa603acaf7385dc58f87286",
+      "from_address": "0x4eD1d43e060e220724EE96E9c177E7548735994d",
+      "to_address": "0xa436C779DcF4e8aF5e4454eF76eDB0E2e13F4e08",
+      "statusName": "FINALIZED",
+      "lifecycle": {
+        "state": "finalized",
+        "outcome": "accepted"
+      },
+      "txExecutionResultName": "FINISHED_WITH_RETURN",
+      "votes": {
+        "0x05d8aFc66B515038712537f99cAAEA73d16f0007": "idle",
+        "0x6760cDeC573cf38568C59872ee48B6fED41F8A4c": "idle",
+        "0x8142E5D1b04f84c3cD995C25AAe31B31F8e0379E": "agree",
+        "0xE52dDB85587585930b1E5f1Fe88fef21CcA49829": "agree",
+        "0xEEcEC5D1E07Ee40f5cb85aF922178Dc01278013C": "agree"
+      }
+    }
+  }
+}

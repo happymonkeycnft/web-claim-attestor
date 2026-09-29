@@ -1,0 +1,12 @@
+{
+  "source_bytes": 9172,
+  "source_sha256": "e35ec8d171847d3685224a5fccda2e506a1cd3b66ec62dd3d8585e5e3fa6edfc",
+  "public_methods": 4,
+  "prompt_empty_chars": 683,
+  "prompt_example_chars": 790,
+  "prompt_max_plain_chars": 5683,
+  "prompt_hard_cap_chars": 6000,
+  "closure_storage_audit": "PASS",
+  "interface_ast": "PASS",
+  "secret_scan": "PASS (project text credential-pattern scan)"
+}

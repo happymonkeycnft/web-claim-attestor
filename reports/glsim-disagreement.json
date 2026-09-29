@@ -1,0 +1,30 @@
+{
+  "scenario": "DISAGREEMENT",
+  "mode": "GLSim in-process; deterministic web/LLM mocks",
+  "votes": [
+    "disagree",
+    "disagree",
+    "disagree",
+    "disagree",
+    "disagree"
+  ],
+  "status": "UNDETERMINED",
+  "result": "SUPPORTED",
+  "calls": {
+    "web": 6,
+    "llm": 6
+  },
+  "attestation": {
+    "attestation_id": 1,
+    "creator": "0x391697230821b7399CEc2cDd78a435c90bcD00FC",
+    "claim": "Example Domain is intended for documentation use.",
+    "source_url": "https://www.iana.org/help/example-domains",
+    "context": "",
+    "source_commitment": "9e6495c1369a3ea32d1f66554d840ca2d5a69d084925b9277453e1e444521920",
+    "status": "PENDING",
+    "availability": "",
+    "verdict": "",
+    "evidence_fingerprint": "",
+    "reason": ""
+  }
+}

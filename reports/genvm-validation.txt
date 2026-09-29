@@ -1,0 +1,5 @@
+
+✓ Lint passed (3 checks)
+✓ Validation passed
+  Contract: WebClaimAttestor
+  Methods: 4 (2 view, 2 write)

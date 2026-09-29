@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+*.pyc
+
+# Local wallet operations and raw operational receipts
+.env.*
+!.env.example
+tools/studio_preflight.mjs
+tools/studio_controlled.mjs
+reports/studio-preflight.json
+reports/studio-controlled.json
+reports/STUDIO-DEV-ATTEMPT.md
